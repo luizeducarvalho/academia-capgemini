@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audit List</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">   
+</head>
+
+<body>
+    <form class="form-inline ml-5 m-3">
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="nomeCliente">Nome do cliente:</label>
+            <input type="text" class="form-control" id="nomeCliente">
+            <label for="nomeAnuncio">Nome do anúncio:</label>
+            <input type="text" class="form-control" id="nomeAnuncio">
+        </div><br>
+        <div class="form-group mx-sm-3 mb-2">
+            <label for="dataInicio">Data de início:</label>
+            <input type="date" class="form-control" id="dataInicio">
+            <label for="dataTermino">Data de término:</label>
+            <input type="date" class="form-control" id="dataTermino">
+            <label for="investimentoDiario">Investimento diário:</label>
+            <input type="number" class="form-control" id="investimentoDiario">
+        </div><br>
+        <button type="submit" class="btn btn-primary mb-2" id="btn-adicionar">Adicionar</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm ml-2 mb-2" id="btn-ordenar-cliente">Orderna por cliente</button>
+    </form>
+    <br>
+    <section>
+    </section>
+
+    <script src="scriptjs.js"></script>
+</body>
+
+</html>
